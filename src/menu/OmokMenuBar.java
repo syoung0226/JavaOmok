@@ -45,7 +45,6 @@ public class OmokMenuBar extends JMenuBar implements ActionListener {
 			try {
 				OmokFileUtils.save();
 			} catch (IOException e1) {
-				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
 			System.exit(0);
@@ -53,10 +52,8 @@ public class OmokMenuBar extends JMenuBar implements ActionListener {
 			try {
 				OmokFileUtils.load();
 			} catch (IOException e3) {
-				// TODO Auto-generated catch block
 				e3.printStackTrace();
 			} catch (ClassNotFoundException e3) {
-				// TODO Auto-generated catch block
 				e3.printStackTrace();
 			}
 			
